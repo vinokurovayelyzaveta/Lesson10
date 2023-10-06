@@ -37,7 +37,10 @@ body{
     width: 100px;
     height: 100px;
     background-color:rgba(252, 143, 143, 1);
-    margin-right: 20px;
+}
+
+.right:not(:first-child){
+    margin-left: 20px;
 }
 
 .two{
