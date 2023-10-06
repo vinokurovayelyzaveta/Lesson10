@@ -3,18 +3,40 @@ body{
     padding: 0;
 }
 
-.container{
+.von{
     width: 100%;
+    height: 800px;
+    background-color:rgba(196, 196, 196, 1);
+    padding: 50px;
 }
 
-.gray-block{
+.container-first{
+    background-color:rgba(230, 230, 230, 1);
+    width: 1000px;
+    height: 200px;
+    color:rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.first-red-block{
     float: left;
-    width: 50%;
-    background-color: grey;
+    width: 200px;
+    height: 200px;
+    background-color:rgba(252, 143, 143, 1);
 }
 
 .red-block{
     float: right;
-    width: 50%;
-    background-color: red;
+    width: 200px;
+    height: 200px;
+    background-color:rgba(252, 143, 143, 1);
+}
+
+.right{
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-color:rgba(252, 143, 143, 1);
+    margin-right: 20px;
 }
